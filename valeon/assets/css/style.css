@@ -690,6 +690,7 @@ body {
 
     .statistics {
         display: flex;
+        padding-top: 10px;
     }
 
     .stat {
@@ -722,6 +723,10 @@ body {
         justify-content: center;
     }
 
+    .tactic {
+        padding: 30px 0 0;
+    }
+
     .tactic__items {
         font-size: 13px;
     }
@@ -744,6 +749,7 @@ body {
     }
 
     .contacts__text {
+        font-size: 20px;
         padding: 20px 0 0;
     }
 }
