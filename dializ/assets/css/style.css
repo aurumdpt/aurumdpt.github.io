@@ -581,6 +581,7 @@ body {
     width: 100%;
     border: 0;
     border-bottom: 1px solid #ee5977;
+    resize: none;
 }
 
 .consultation-box__btn {
@@ -612,3 +613,128 @@ body {
 }
 
 /* Media */
+@media (max-width: 1200px) {
+    .services-box {
+        width: 49%;
+    }
+}
+
+@media (max-width: 992px) {
+    .details-one__title {
+        font-size: 24px;
+    }
+
+    .details-one__text {
+        font-size: 14px;
+    }
+
+    .details-one {
+        margin-right: 60px;
+    }
+
+    .details-two__img {
+        height: 500px;
+    }
+
+    .consultation__content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .location {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .phone {
+        font-size: 10px;
+        margin-right: 77px;
+    }
+
+    .button__link {
+        font-size: 10px;
+    }
+
+    .details-one__title {
+        font-size: 20px;
+    }
+
+    .details-two__img {
+        height: 320px;
+    }
+
+    .details-two__box {
+        width: 210px;
+        font-size: 14px;
+        height: 130px;
+    }
+
+    .consultation-box__img {
+        width: 320px;
+    }
+
+    .circle {
+        width: 320px;
+        height: 320px;
+    }
+
+    .circle__inner {
+        width: 290px;
+        height: 290px;
+    }
+
+    .consultation-box {
+        width: 320px;
+    }
+
+    .consultation-box__title {
+        font-size: 14px;
+    }
+
+    .consultation-box__content {
+        padding: 20px 30px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .location {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .intro__content {
+        flex-direction: column;
+    }
+
+    .details-one {
+        margin: 40px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .services-box {
+        width: 100%;
+    }
+
+    .consultation-box {
+        width: 280px;
+    }
+
+    .consultation-box__img {
+        width: 280px;
+    }
+
+    .circle {
+        width: 280px;
+        height: 280px;
+    }
+
+    .circle__inner {
+        width: 250px;
+        height: 250px;
+    }
+}
