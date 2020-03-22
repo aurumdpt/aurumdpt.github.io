@@ -408,7 +408,7 @@ body {
 }
 
 /* Media */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   /* Intro */
     .firefighter {
         width: 352.535px;
@@ -428,8 +428,8 @@ body {
     }
 }
 
-/* 992px */
-@media (max-width: 992px) {
+/* 1200px */
+@media (max-width: 1200px) {
   /* Intro */
     .intro__item {
         margin-right: 80px;
@@ -441,8 +441,11 @@ body {
     }
 }
 
-/* 768px */
-@media (max-width: 768px) {
+/* 992px */
+@media (max-width: 992px) {
+    .page {
+        height: auto;
+    }
   /* Intro */
     .intro__title {
         font-size: 20px;
@@ -487,11 +490,8 @@ body {
     }
 }
 
-/* 576px */
-@media (max-width: 576px) {
-    .page {
-        height: auto;
-    }
+/* 768px */
+@media (max-width: 768px) {
   /* Intro */
     .intro {
         flex-direction: column-reverse;
