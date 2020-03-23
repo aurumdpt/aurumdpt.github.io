@@ -429,7 +429,7 @@ body {
 
 .results {
     padding: 81px 0 0 0;
-    background-image: url(../../assets/img/results/bg-results.svg);
+    background-image: url(../../../assets/img/results/bg-results.svg);
     background-position: 0 10%;
     background-repeat: no-repeat;
 }
