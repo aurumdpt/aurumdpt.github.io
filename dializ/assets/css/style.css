@@ -601,6 +601,8 @@ body {
 }
 
 .advantage {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: rgba(0, 255, 255, 0.2);
 }
 
@@ -632,6 +634,21 @@ body {
 
 .advantage-box__suptitle {
     font-weight: 600;
+}
+
+.footer {
+    background-color: rgba(0, 255, 255, 0.2);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__social-img {
+    width: 30px;
+    height: 30px;
 }
 
 /* Media */
@@ -667,6 +684,10 @@ body {
     .consultation-box {
         position: inherit;
     }
+
+    .advantage {
+        padding-top: 0;
+    }
 }
 
 /* 768px */
@@ -699,6 +720,10 @@ body {
         height: 130px;
     }
 
+    .consultation__content {
+        margin-top: 20px;
+    }
+
     .consultation-box__img {
         height: 320px;
     }
@@ -717,6 +742,10 @@ body {
 
     .consultation-box__content {
         padding: 20px 30px 20px;
+    }
+
+    .services {
+        padding-bottom: 30px;
     }
 
     .advantage-box {
@@ -770,5 +799,9 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .footer__content {
+        flex-direction: column;
     }
 }

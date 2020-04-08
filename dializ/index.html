@@ -168,6 +168,14 @@
                             консультацию!<br>Мы свяжемся с вами в течении 10 минут
                         </div>
                         <div class="consultation-box__inner">
+
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="Dializ">
+                            <input type="hidden" name="admin_email" value="admin@mail.com">
+                            <input type="hidden" name="form_subject" value="Form Subject">
+                            <!-- END Hidden Required Fields -->
+
+                            <!-- Form -->
                             <div class="consultation-box__item">
                                 Ваше имя:<br>
                                 <input type="text" placeholder="Имя...">
@@ -175,7 +183,7 @@
 
                             <div class="consultation-box__item">
                                 Ваш телефон:<br>
-                                <input type="email" placeholder="Телефон...">
+                                <input type="text" placeholder="Телефон..." id="phone" required>
                             </div>
 
                             <div class="consultation-box__item">
@@ -186,6 +194,7 @@
                             <div class="consultation-box__btn">
                                 <input type="submit" value="Отправить">
                             </div>
+                            <!-- Form -->
                         </div>
                     </div>
                 </div>
@@ -262,8 +271,27 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><!-- /.container -->
     </section><!-- /.advantage -->
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__copyright">
+                    © ООО «Диализ», 2020
+                </div>
+                <div class="footer__logo">
+                    <a class="logo" href="">Dia<span>liz</span></a>
+                </div>
+                <div class="footer__social">
+                    <a href=""><img class="footer__social-img" src="assets/img/social/01.png" alt="whatsapp"></a>
+                    <a href=""><img class="footer__social-img" src="assets/img/social/02.png" alt="telegram"></a>
+                    <a href=""><img class="footer__social-img" src="assets/img/social/03.png" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
